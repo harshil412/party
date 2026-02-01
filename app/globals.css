@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --accent-from: #ec4899; /* pink */
+  --accent-via: #a855f7;  /* purple */
+  --accent-to: #6366f1;   /* indigo */
+}
+
+[data-theme="blue"] {
+  --accent-from: #38bdf8;
+  --accent-via: #0ea5e9;
+  --accent-to: #2563eb;
+}
+
+[data-theme="red"] {
+  --accent-from: #f43f5e;
+  --accent-via: #ef4444;
+  --accent-to: #dc2626;
+}
